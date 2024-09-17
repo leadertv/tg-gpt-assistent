@@ -9,7 +9,7 @@ OPENAI_API_KEY = 'sk-0000000000'  # Укажите здесь ваш OpenAI API 
 
 # Инициализация OpenAI
 openai.api_key = OPENAI_API_KEY
-openai.api_base = "https://api.openai-proxy.com/v1"
+openai.api_base = "https://api.openai-proxy.com/v1" # напрямую не достучаться, санкции ёбана, по этому тут прокси.
 
 # Системный промпт (можешь менять на свой, разделено на кавычки построчно, чтобы не делать длинную строку)
 SYSTEM_PROMPT = (
